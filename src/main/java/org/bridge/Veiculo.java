@@ -4,18 +4,18 @@ public abstract class Veiculo {
 
     protected Motor motor;
 
-    protected double consumo;
+    protected double capacidade;
 
-    public Veiculo(double consumo){
-        this.consumo = consumo;
+    public Veiculo(double capacidade){
+        this.capacidade = capacidade;
     }
 
     public void setMotor(Motor motor){
         this.motor = motor;
     }
 
-    public void setConsumo{float consumo}{
-        this.consumo = consumo;
+    public void setCapacidade(float capacidade){
+        this.capacidade = capacidade;
     }
 
     public abstract double calcularCustodeConsumo();

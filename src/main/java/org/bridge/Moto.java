@@ -2,11 +2,11 @@ package org.bridge;
 
 public class Moto extends Veiculo{
 
-    public Moto(double consumo){
-        super(consumo);
+    public Moto(double capacidade){
+        super(capacidade);
     }
 
     public double calcularCustodeConsumo() {
-        return this.consumo * this.motor.custoConsumo();
+        return this.capacidade * this.motor.custoConsumo();
     }
 }
